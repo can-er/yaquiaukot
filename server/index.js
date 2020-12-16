@@ -4,7 +4,14 @@ const fs = require('fs');
 
 var macs = []; // array of mac's of devices
 var htmlcontent = "";
-var arr = { "e0:cc:f8:54:4c:3e" : "Spartak", "18:5e:0f:a2:3f:28" : "IliesPC", "8c:f5:a3:df:c8:cc": "Nadir", "6e:de:7c:ee:16:9f":"Caner"};
+var arr = {
+        "e0:cc:f8:54:4c:3e" : "Spartak",
+        "18:5e:0f:a2:3f:28" : "IliesPC",
+        "8c:f5:a3:df:c8:cc": "Nadir",
+        "6e:de:7c:ee:16:9f":"Caner",
+        "2c:6f:c9:48:3a:61":"CanerPC",
+        "08:78:08:91:4c:6e":"Ilies"
+};
 
 const server = http.createServer((req, res) => {
     if (req.method === 'POST') {
