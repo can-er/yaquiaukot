@@ -44,12 +44,6 @@ const server = http.createServer((req, res) => {
         <body>
                 <h1> Y a qui au kot ? </h1>
                 <p> ${htmlcontent} </p>
-            <!--form action="/" method="post">
-                <input type="text" name="fname" /><br />
-                <input type="number" name="age" /><br />
-                <input type="file" name="photo" /><br />
-                <button>Save</button>
-            </form-->
         </body>
         </html>
       `);
